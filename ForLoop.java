@@ -32,12 +32,20 @@ public class ForLoop {
 
 // exercise 3 (for each)
 
-int[]  numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9 };
+//int[]  numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9 };
+//
+//for (int element: numbers){
+//    System.out.println(element);
+//}
 
-for (int element: numbers){
-    System.out.println(element);
-}
 
+
+// exercise 4
+
+        for (int i = 0; i < 10; i++) {
+            System.out.println("Pierwsza pętla " + i);
+
+        }
 
     }
 }
